@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+nav {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+  .project h2 {
+    margin-bottom: 5px;
+  }
+  .image{
+    border-radius: 45rem;
+    box-shadow: 10px 10px 5px rgb(86, 77, 77);
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+}
+#profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+
+}
+.text{
+  align-self: center;
+  text-align: center;
+}
+.text p{
+  font-weight: 600;
+}
+.p1{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.p2{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.title{
+  font-size: 3rem;
+  text-align: center;
+  color: blueviolet;
+}
+.btn_cont{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn{
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  color: aliceblue;
+  background: rgb(66, 2, 131);
+}
+.btn-color-1,.btn-color-2{
+  border: rgba(53,53,53)0.1rem solid;
+
+}
+.btn:hover{
+  background: #333;
+  color: azure;
+  cursor: pointer;
+}
+.details_cont{
+  height: 500px;
+  width: 600px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 1.5rem;
+  border:rgba(53,53,53)0.3rem solid;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about{
+  position: relative;
+}
+.about_container{
+  gap:2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.details_cont{
+  justify-content: center;
+  flex-direction: column;
+}
+.about_container,.details_cont{
+  display: flex;
+  
+}
+.container{
+  gap:2rem;
+  height: 80%;
+}
+.container1{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin:  auto 0;
+  margin-left: 425px;
+}
+#experience{
+  position: relative;
+  margin-top: 350px;
+}
+.sub-title{
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  color: cadetblue;
+}
+.exp_detail_cont{
+  display: flex;
+  justify-content: center;
+
+}
+.article-container{
+  gap:2.5rem;
+  justify-content: center;
+  
+}
+.article-container1{
+  gap:2.5rem;
+  justify-content: center;
+  margin-left: 70px;
+}
+article{
+  gap:0.5rem;
+  justify-content: center;
+  width:8rem;
+  height: 5rem;
+}
+.details-containers{
+  padding:1.3rem;
+  border-radius: 2rem;
+  border:rgba(53,53,53)0.3rem solid;
+  text-align: center;
+  border-color: rgba(163,163,163);
+  
+}
+.L-icon{
+  cursor: pointer;
+  height: 2rem;
+  border-radius: 50rem;
+  background: black;
+}
+#projects{
+  position: relative;
+  margin-left: 200px;
+  
+}
+.color-container{
+  background: rgba(250,250,250);
+}
+.project-img{
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+.project-title{
+  margin: 1rem;
+  color:black;
+
+}
+.project-btn{
+  color:white;
+  border-color:black;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+}
+.contact-info-upper{
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgba(53,53,53)0.1rem solid;
+  border-color: rgba(163,163,163);
+  background: rgba(250,250,250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+.contact-info-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.5rem;
+  margin: 1rem;
+}
+.contact-info-cont p{
+  font-size: larger;
+}
+.contact-icon{
+  cursor: default;
+  height: 2rem;
+}
+.linked{
+  height: 2.5rem;
+  width: 2rem;
+  border-radius: 2rem;
+}
+.mail{
+  text-decoration: none;
+  color: #333;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  max-width: 0 16rem;
+}
+footer p{
+  text-align: center;
+  padding: 5rem;
+  font-size: 20px;
+}
+#ftr{
+  background-color:grey;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  height: 150px;
+  cursor: pointer;
+}
